@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary DisplayName="Polar-350">
+    <Material name="Acrylic">
+        <Entry Thickness="3.0000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/3.0000/Cut"/>
+                <minPower Value="45"/>
+                <maxPower Value="50"/>
+                <maxPower2 Value="20"/>
+                <speed Value="9"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/3.0000/Engrave"/>
+                <minPower Value="30"/>
+                <maxPower Value="30"/>
+                <minPower2 Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <perfLen Value="0.09906"/>
+                <perfSkip Value="0.09906"/>
+                <dotTime Value="1"/>
+                <scanOpt Value="byGroup"/>
+                <overscan Value="0"/>
+                <interval Value="0.06"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
