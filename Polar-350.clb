@@ -23,19 +23,39 @@
                 <index Value="0"/>
                 <name Value=""/>
                 <LinkPath Value="Acrylic/3.0000/Engrave"/>
-                <minPower Value="30"/>
-                <maxPower Value="30"/>
+                <minPower Value="25"/>
+                <maxPower Value="25"/>
                 <minPower2 Value="10"/>
                 <maxPower2 Value="20"/>
-                <speed Value="300"/>
+                <speed Value="250"/>
                 <perfLen Value="0.09906"/>
                 <perfSkip Value="0.09906"/>
                 <dotTime Value="1"/>
                 <scanOpt Value="byGroup"/>
                 <overscan Value="0"/>
-                <interval Value="0.06"/>
+                <interval Value="0.0799"/>
                 <priority Value="0"/>
                 <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Inverted Image">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/3.0000/Inverted Image"/>
+                <minPower Value="25"/>
+                <maxPower Value="25"/>
+                <maxPower2 Value="20"/>
+                <speed Value="250"/>
+                <dotTime Value="1"/>
+                <interval Value="0.0799"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <negative Value="1"/>
+                <ditherMode Value="jarvis"/>
+                <dpi Value="318"/>
             </CutSetting>
         </Entry>
     </Material>
