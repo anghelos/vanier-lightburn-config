@@ -39,4 +39,35 @@
             </CutSetting>
         </Entry>
     </Material>
+    <Material name="Basswood">
+        <Entry Thickness="-1.0000" Desc="Engrave" NoThickTitle="Engrave">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Basswood/Engrave/Engrave"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Basswood/3.0000/Cut"/>
+                <minPower Value="25"/>
+                <maxPower Value="30"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
 </LightBurnLibrary>
