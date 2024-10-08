@@ -10,6 +10,7 @@
                 <maxPower Value="50"/>
                 <maxPower2 Value="20"/>
                 <speed Value="9"/>
+                <kerf Value="0.148"/>
                 <dotTime Value="1"/>
                 <dotSpacing Value="0.01"/>
                 <overscan Value="0"/>
@@ -18,7 +19,7 @@
                 <tabCountMax Value="1"/>
             </CutSetting>
         </Entry>
-        <Entry Thickness="3.0000" Desc="Engrave">
+        <Entry Thickness="-1.0000" Desc="Engrave">
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
@@ -39,7 +40,7 @@
                 <tabCountMax Value="1"/>
             </CutSetting>
         </Entry>
-        <Entry Thickness="3.0000" Desc="Inverted Image">
+        <Entry Thickness="-1.0000" Desc="Inverted Image">
             <CutSetting type="Image">
                 <index Value="0"/>
                 <name Value=""/>
@@ -69,6 +70,7 @@
                 <maxPower2 Value="20"/>
                 <speed Value="150"/>
                 <dotTime Value="1"/>
+                <interval Value="0.0799"/>
                 <priority Value="0"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
@@ -83,6 +85,7 @@
                 <maxPower Value="30"/>
                 <maxPower2 Value="20"/>
                 <speed Value="10"/>
+                <kerf Value="0.08"/>
                 <dotTime Value="1"/>
                 <priority Value="0"/>
                 <tabCount Value="1"/>
