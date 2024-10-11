@@ -6,8 +6,8 @@
                 <index Value="0"/>
                 <name Value=""/>
                 <LinkPath Value="Acrylic/3.0000/Cut"/>
-                <minPower Value="45"/>
-                <maxPower Value="50"/>
+                <minPower Value="35"/>
+                <maxPower Value="40"/>
                 <maxPower2 Value="20"/>
                 <speed Value="9"/>
                 <kerf Value="0.148"/>
@@ -23,7 +23,7 @@
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acrylic/3.0000/Engrave"/>
+                <LinkPath Value="Acrylic/-1.0000/Engrave"/>
                 <minPower Value="25"/>
                 <maxPower Value="25"/>
                 <minPower2 Value="10"/>
@@ -44,7 +44,7 @@
             <CutSetting type="Image">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acrylic/3.0000/Inverted Image"/>
+                <LinkPath Value="Acrylic/-1.0000/Inverted Image"/>
                 <minPower Value="25"/>
                 <maxPower Value="25"/>
                 <maxPower2 Value="20"/>
@@ -57,6 +57,24 @@
                 <negative Value="1"/>
                 <ditherMode Value="jarvis"/>
                 <dpi Value="318"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.6000" Desc="Cut">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acrylic/1.6000/Cut"/>
+                <minPower Value="45"/>
+                <maxPower Value="50"/>
+                <maxPower2 Value="20"/>
+                <speed Value="20"/>
+                <kerf Value="0.148"/>
+                <dotTime Value="1"/>
+                <dotSpacing Value="0.01"/>
+                <overscan Value="0"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
             </CutSetting>
         </Entry>
     </Material>
